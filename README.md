@@ -1,3 +1,5 @@
+# 참고링크
+- [Velog: 모노레포 프로젝트 세팅 (Yarn + Vite + React + TypeScript)](https://velog.io/@remon/%EB%AA%A8%EB%85%B8%EB%A0%88%ED%8F%AC-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%84%B8%ED%8C%85-Yarn-Vite-React-TypeScript#apps%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%97%90%EC%84%9C-packagescommonimg-%EC%97%90-%EC%9E%88%EB%8A%94-%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B3%A0-%EC%8B%B6%EC%9D%84-%EA%B2%BD%EC%9A%B0)
 # 1. root/ package.json 설정 사항
 ```json
 {
