@@ -1,0 +1,37 @@
+{
+    "compilerOptions": {
+      "removeComments": true,
+      "strict": true,
+      "allowJs": true,
+      "resolveJsonModule": true,
+      "forceConsistentCasingInFileNames": true,
+        "composite": true,
+    },
+    "include": ["apps/**/*", "packages/**/*"],
+    "references": [
+      {
+        "path": "./apps/group"
+      },
+      {
+        "path": "./apps/normal"
+      }
+    ],
+    "exclude": [
+      "node_modules",
+      "**/build",
+      "**/dist",
+      "**/__tests__",
+      "**/*.test.ts",
+      "**/*.test.tsx",
+      "**/*.spec.ts",
+      "**/*.spec.tsx",
+      "**/*.stories.tsx",
+      "**/.storybook",
+      "coverage",
+      "storybook-static",
+      "public",
+      "**/eslint.config.js",
+      "**/jest.config.js",
+      "**/eslint.config.js"
+    ]
+  }

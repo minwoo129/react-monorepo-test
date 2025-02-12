@@ -1,0 +1,15 @@
+{
+    "name": "react-monorepo-test",
+    "private": true,
+    "workspaces": [
+        "apps/*",
+        "packages/*"
+    ],
+    "scripts": {
+        "normal": "yarn workspace normal",
+        "group": "yarn workspace group"
+    },
+    "devDependencies": {
+        "typescript": "^5.7.3"
+    }
+}
